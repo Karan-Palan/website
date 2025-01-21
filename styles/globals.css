@@ -238,6 +238,12 @@ border-radius: 4px; */
   background-size: 100% 100%;
 }
 
+.bg-tsc {
+  background-image: url('/images/tsc-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-meeting {
   background-image: url(/img/event/meet.png);
 }

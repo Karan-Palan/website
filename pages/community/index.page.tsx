@@ -251,6 +251,32 @@ export default function communityPages(props: any) {
           </div>
         </div>
         <div className='m-auto w-12/12 md:w-11/12 lg:w-10/12 xl:w-10/12'>
+          <div className='z-40 mt-20 mx-auto w-full md:h-[520px] md:flex grid grid-cols-1 lg:grid-cols-2 md:justify-between rounded-lg border border-gray-200 bg-white transition-colors hover:bg-slate-100 dark:bg-slate-800 hover:dark:bg-slate-900/30 shadow-3xl dark:shadow-2xl dark:shadow-slate-900'>
+            <div className='p-4 px-8 flex justify-between w-full md:w-3/6 h-auto flex-col text-center md:text-left'>
+              <div data-testid='HomeCard-main' className='m-auto'>
+                <h2 className=' text-blue-700 font-bold  text-[2rem] text-center'>
+                  TSC Governance
+                </h2>
+                <h2 className='font-bold text-slate-500 text-base tracking-wide dark:text-white mt-10'>
+                  Learn about the Technical Steering Committee (TSC) and how it
+                  governs the development and direction of the JSON Schema
+                  community and specifications.
+                </h2>
+                <div className='mt-10 mx-auto' data-testid='HomeCard-button'>
+                  <a
+                    href='/governance'
+                    rel='noopener noreferrer'
+                    className='bg-blue-700 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded block md:inline-block focus:outline-none'
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className='w-full h-fit-content md:w-3/6 max-sm:w-1/4 flex rounded-r-lg justify-end bg-cover bg-center bg-tsc' />
+          </div>
+        </div>
+        <div className='m-auto w-12/12 md:w-11/12 lg:w-10/12 xl:w-10/12'>
           <div className='z-40 mt-20 w-full md:h-130 rounded-lg border border-gray-200 bg-white shadow-3xl transition-colors  hover:bg-slate-100 md:flex grid grid-cols-1 md:grid-cols-2 justify-between mb-10  dark:bg-slate-800 hover:dark:bg-slate-900/30  dark:shadow-2xl dark:shadow-slate-900'>
             <div className='p-4 px-8 flex justify-between w-full md:w-3/6 h-auto flex-col text-center md:text-left'>
               <div data-testid='HomeCard-main' className='mx-auto my-20'>

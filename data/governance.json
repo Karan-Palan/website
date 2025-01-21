@@ -1,0 +1,106 @@
+{
+  "header": {
+    "title": "Governance & Technical Steering Committee (TSC)",
+    "description": "Understand how the Technical Steering Committee (TSC) and governance structure ensure the development and direction of the JSON Schema project. Find processes, resources, and ways to get involved.",
+    "buttonText": "Read the Governance Charter",
+    "buttonLink": "https://github.com/json-schema-org/community/blob/main/GOVERNANCE.md",
+    "bannerImage": "/img/community/governance.png"
+  },
+  "sections": [
+    {
+      "title": "JSON Schema Governing Body (TSC)",
+      "content": "The Technical Steering Committee (TSC) is the governing body responsible for overseeing the maintenance and development of JSON Schema. It establishes the strategic direction of the project and ensures transparency and inclusivity.",
+      "links": [
+        {
+          "text": "Governance Charter",
+          "url": "https://github.com/json-schema-org/community/blob/main/GOVERNANCE.md"
+        },
+        {
+          "text": "TSC Discussions",
+          "url": "https://github.com/orgs/json-schema-org/discussions"
+        },
+        {
+          "text": "Community Programs",
+          "url": "https://json-schema.org/community"
+        }
+      ]
+    },
+    {
+      "title": "Decision-Making Processes",
+      "content": "The JSON Schema project employs consensus and voting mechanisms to ensure decisions are fair, collaborative, and well-documented.",
+      "links": [
+        {
+          "text": "Consensus Process Overview",
+          "url": "https://seedsforchange.org.uk/consensus"
+        },
+        {
+          "text": "Voting Process Workflow",
+          "url": "https://stately.ai/registry/editor/embed/c53f8d7e-78fa-420e-bec7-59b8ce2471dd?machineId=140d0a50-b21c-462e-99d5-f13231127cb2"
+        },
+        {
+          "text": "Supporting Governance Information",
+          "url": "https://github.com/json-schema-org/community/blob/main/docs/governance/supporting-info.md"
+        }
+      ]
+    },
+    {
+      "title": "TSC Meeting Details",
+      "content": "TSC meetings are conducted regularly to discuss key topics and make important decisions. Meetings are directed by TSC Chairs, and minutes are shared for transparency.",
+      "links": [
+        {
+          "text": "TSC Meeting Minutes",
+          "url": "https://github.com/json-schema-org/community/discussions/35"
+        },
+        {
+          "text": "Office Hours",
+          "url": "https://github.com/json-schema-org/community/discussions/34"
+        }
+      ]
+    },
+    {
+      "title": "How to Get Involved",
+      "content": "Join discussions, contribute to governance decisions, and help shape the future of JSON Schema. The project welcomes contributors from all backgrounds.",
+      "links": [
+        {
+          "text": "Join the Community",
+          "url": "https://json-schema.org/community"
+        },
+        {
+          "text": "Contribute to Discussions",
+          "url": "https://github.com/orgs/json-schema-org/discussions"
+        },
+        {
+          "text": "Ambassador Program",
+          "url": "https://github.com/json-schema-org/community/tree/main/programs/ambassadors"
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "What is the role of the Technical Steering Committee (TSC)?",
+      "answer": "The TSC oversees the development and maintenance of the JSON Schema specifications, ensuring transparency and inclusivity while setting the strategic direction for the project."
+    },
+    {
+      "id": 2,
+      "question": "How can I join the TSC or contribute to governance decisions?",
+      "answer": "You can participate by joining discussions in the community, attending TSC meetings, or proposing ideas via GitHub discussions. Formal invitations to the TSC are based on active contributions and engagement."
+    },
+    {
+      "id": 3,
+      "question": "Where can I find TSC meeting minutes or details?",
+      "answer": "Meeting minutes and related details are publicly available on the [JSON Schema GitHub repository](https://github.com/json-schema-org/community/discussions/35)."
+    },
+    {
+      "id": 4,
+      "question": "How does the voting process work?",
+      "answer": "Voting is conducted via GitHub Issues, where members react to a specific comment with their votes. Detailed workflows can be found in the governance documentation."
+    },
+    {
+      "id": 5,
+      "question": "What is the JSON Schema Ambassador Program?",
+      "answer": "The Ambassador Program recognizes individuals who drive adoption, innovation, and knowledge-sharing in the JSON Schema community. Learn more [here](https://json-schema.org/community)."
+    }
+  ]
+}

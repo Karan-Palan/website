@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Markdown from 'markdown-to-jsx';
 
 interface AccordionItem {
   question: string;
@@ -86,7 +87,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
               className='p-2 text-gray-500 dark:text-slate-200 pb-4'
               data-test={`accordion-answer-${item.id}`}
             >
-              {item.answer}
+              <Markdown>{item.answer}</Markdown>
             </div>
           )}
         </div>
